@@ -1,0 +1,162 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Russo+One');
+
+body {
+    background-color: #B8AE9C;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+/* Jumbo */
+.jumbotron {
+    background-color: #EEE;
+    border-bottom: 1px solid #595241;
+    border-top: 1px solid #595241;
+}
+.jumbotron h1 {
+    color: #8A0917;
+    text-shadow: 1px 1px 2px #000;
+    font-family: 'Russo One', sans-serif;
+}
+.jumbotron img {
+    float: left;
+    margin-right: 25px;
+}
+/* Containers */
+.container a,
+.container a:link {
+    color: #8A0917;
+}
+
+/* Navigation */
+.navbar,
+.navbar-fixed-top {
+    background-color: #8A0917;
+    color: #FFEFED;
+    border-bottom: 1px solid #000;
+}
+.navbar-default .navbar-brand,
+.container .navbar-default .navbar-brand {
+    color: #FFEFED !important;
+}
+.navbar-default .navbar-brand a,
+.navbar-default .navbar-brand a:link,
+.container a .navbar-default .navbar-brand, 
+.container a:link .navbar-default .navbar-brand {
+    color: #FFEFED !important;
+}
+.navbar-default .navbar-brand a:visited {
+    color: #EEE;
+}
+.navbar-default .navbar-nav li a {
+    color: #FFEFED;
+}
+.navbar-default .navbar-nav li a:visited {
+    color: #EEE;
+}
+.navbar-default .navbar-nav li a:hover {
+    background-color: #57060E;
+    color: #FFF;
+}
+.navbar-default .navbar-nav li a:active,
+.navbar-default .navbar-nav li.active a {
+    background-color: #EEE;
+    color: #000;
+}
+.navbar .dropdown-menu li,
+.navbar .dropdown-menu li a,
+.navbar .dropdown-menu li a:link,
+.navbar-fixed-top .dropdown-menu li,
+.navbar-fixed-top .downdown-menu li a,
+.navbar-fixed-top .dropdown-menu li a:link{
+    color: #8A0917;
+}
+.navbar .dropdown-menu li .hover,
+.navbar .dropdown-menu li a:hover {
+    background-color: #57060E;
+    color: #FFF;
+}
+
+/* Resume */
+#resume {
+    text-align: justify;
+}
+#resume h1,
+#resume h2,
+#resume h3 {
+    font-family: 'Russo One', sans-serif;
+}
+#resume h3 {
+    border-bottom: 1px solid #595241;
+}
+#resume hr {
+    border: 1px solid #423D30;
+}
+#success_message {
+    display: none;
+}
+
+/* Contact */
+#contact_form {
+    background-color: #EEE;
+    border: 1px solid #595241;
+}
+#errors {
+    border:solid 1px #E58E8E;
+    padding:10px;
+    margin:25px 0px;
+    display:block;
+    width:437px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+    background-color: #FFE6E6;
+    display:none;
+}
+ 
+#errors li {
+    padding:2px;
+    list-style:none;    
+}
+ 
+#errors li:before {
+    content: ' - ';    
+}
+ 
+#errors #info {
+    font-weight:bold;
+}
+ 
+#errors #info:before {
+    content: '';    
+}
+ 
+#success {
+    border:solid 1px #83D186;
+    padding:25px 10px;
+    margin:25px 0px;
+    display:block;
+    width:437px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+    background-color: #D3EDD3;
+    font-weight:bold;
+    display:none;
+}
+ 
+#errors.visible, #success.visible {
+    display:block;    
+}
+
+/* Projects */
+#myprojects img {
+    background-color: #EEE;
+    border: 1px solid #595241;
+    -moz-box-shadow: 2px 2px 5px #000;
+    -webkit-box-shadow: 2px 2px 5px #000;
+    box-shadow: 2px 2px 5px #000;
+    padding: 10px;
+    margin: 5px;
+    height: 200px;
+    width: auto;
+}
